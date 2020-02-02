@@ -18,15 +18,15 @@
 ### 2.文件结构
 
 主要文件说明：  
-`webapi.py `    fastapi Web页面  
-`spider.py`     抓取器  
-`scheduler.py`  调度器  
-`index.html`    主页文件  
+`webapi.py `&nbsp; &nbsp; &nbsp; fastapi Web页面  
+`spider.py` &nbsp; &nbsp; &nbsp; 抓取器  
+`scheduler.py`&nbsp; &nbsp; &nbsp; 调度器  
+`index.html`&nbsp; &nbsp; &nbsp; &nbsp; 主页文件  
 `/ext/css/style.css` 卡片控制的相关css  
 `/ext/css/webkit.css` 滚动条控制   
-`/ext/img`  存放图片 各网站logo   
-`/ext/js/index.js`  主页渲染    
-`/ext/js/render.js` 渲染函数 导航监听    
+`/ext/img`&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 存放图片 各网站logo   
+`/ext/js/index.js`&nbsp; &nbsp; 主页渲染    
+`/ext/js/render.js`&nbsp; &nbsp; 渲染函数 导航监听    
 
 ### 3.请求格式与数据返回：  
 请求示例： https://lovetop.top:8080/hot?name=zhihu&page=1&limit=10  
@@ -44,7 +44,7 @@
 参数说明 `main`是文件名，`--reload`是开发者模式，相当于Flask中`debug=True`  
 
 ### 参考文档：  
-[1] Layui官方文档&nbsp; &nbsp; &nbsp; https://www.layui.com/doc/  
+[1] Layui官方文档&nbsp; &nbsp; &nbsp;&nbsp;  https://www.layui.com/doc/  
 [2] 清华pip源 使用说明 https://mirrors.tuna.tsinghua.edu.cn/help/pypi/  
-[3]  FastApi文档       https://fastapi.tiangolo.com/deployment/  
-[4]  Uvicorn文档       https://www.uvicorn.org/deployment
+[3]  FastApi文档&nbsp; &nbsp; &nbsp; https://fastapi.tiangolo.com/deployment/  
+[4]  Uvicorn文档&nbsp; &nbsp; &nbsp; https://www.uvicorn.org/deployment
