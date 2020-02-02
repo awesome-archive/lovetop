@@ -1,5 +1,5 @@
 # lovetop
-吾爱热榜开源代码
+吾爱热榜开源代码  技术讨论QQ群 8805926
 
 ### 「极简效率」工具
 
@@ -56,5 +56,13 @@
         }  
     ]  
 }  
+### 4.如何运行：
+执行：  
+`uvicorn main:app --host 0.0.0.0 --port 80 --reload`  
+参数说明 `main`是文件名，`--reload`是开发者模式，相当于Flask中`debug=True`  
 
-
+### 参考文档：  
+[1] Layui官方文档       https://www.layui.com/doc/  
+[2] 清华pip源 使用说明 https://mirrors.tuna.tsinghua.edu.cn/help/pypi/ 
+[3]  FastApi文档       https://fastapi.tiangolo.com/deployment/  
+[4]  Uvicorn文档       https://www.uvicorn.org/deployment
