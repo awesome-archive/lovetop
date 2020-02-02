@@ -45,16 +45,16 @@
 
 返回格式：  
 {  
-    "code":0,响应代码 0位成功，-1为失败  
-    "msg":"Success",响应消息  
-    "pages":5,总页面数  
-    "count":1,此次返回数据量  
-    "data":[  
-        {  
-            "title":"美国首例新冠病毒患者使用未获批药 remdesivir（瑞德西韦）后大幅好转，它有望成为病毒克星吗？",  
-            "url":"https://www.zhihu.com/question/368940464"  
-        }  
-    ]  
+        "code":0,响应代码 0位成功，-1为失败  
+        "msg":"Success",响应消息  
+        "pages":5,总页面数  
+        "count":1,此次返回数据量  
+        "data":[  
+            {  
+                "title":"美国首例新冠病毒患者使用未获批药 remdesivir（瑞德西韦）后大幅好转，它有望成为病毒克星吗？",  
+                "url":"https://www.zhihu.com/question/368940464"  
+            }  
+        ]  
 }  
 ### 4.如何运行：
 执行：  
@@ -63,6 +63,6 @@
 
 ### 参考文档：  
 [1] Layui官方文档       https://www.layui.com/doc/  
-[2] 清华pip源 使用说明 https://mirrors.tuna.tsinghua.edu.cn/help/pypi/ 
+[2] 清华pip源 使用说明 https://mirrors.tuna.tsinghua.edu.cn/help/pypi/  
 [3]  FastApi文档       https://fastapi.tiangolo.com/deployment/  
 [4]  Uvicorn文档       https://www.uvicorn.org/deployment
