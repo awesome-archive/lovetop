@@ -44,18 +44,7 @@
 3.`limit`每页的数量
 
 返回格式：  
-{  
-        "code":0,响应代码 0位成功，-1为失败  
-        "msg":"Success",响应消息  
-        "pages":5,总页面数  
-        "count":1,此次返回数据量  
-        "data":[  
-            {  
-                "title":"美国首例新冠病毒患者使用未获批药 remdesivir（瑞德西韦）后大幅好转，它有望成为病毒克星吗？",  
-                "url":"https://www.zhihu.com/question/368940464"  
-            }  
-        ]  
-}  
+![avatar](https://raw.githubusercontent.com/LookCos/lovetop/master/preview/json.jpg)
 ### 4.如何运行：
 执行：  
 `uvicorn main:app --host 0.0.0.0 --port 80 --reload`  
