@@ -5,7 +5,7 @@
 
 演示地址： https://lovetop.top/
 
-### 说明
+### 1.说明：
 #### 后端部分：使用FastApi框架 配合uvicorn 完成
 #### 前端部分：主要使用了Layui框架渲，使用JavaScript+html+css 构造前端
 依赖的外部库：    
@@ -15,7 +15,7 @@
 `pip install fastapi`   
 国内推荐添加清华源 参数  `-i https://pypi.tuna.tsinghua.edu.cn/simple` 以加快安装速度  
 
-#### 文件结构
+### 2.文件结构
 
 后端部分
 
@@ -33,4 +33,28 @@
 │  │      index.js  主页渲染  
 │  │      render.js 渲染函数 导航监听  
 │  └─page  
-└─layui layui框架  
+└─layui layui框架 
+
+### 3.请求格式与数据返回：  
+请求示例： https://lovetop.top:8080/hot?name=zhihu&page=1&limit=10  
+
+参数说明：  
+1.`name`要请求的节点名  
+2.`page`第几页
+3.`limit`每页的数量
+
+返回格式：  
+{  
+    "code":0,响应代码 0位成功，-1为失败  
+    "msg":"Success",响应消息  
+    "pages":5,总页面数  
+    "count":1,此次返回数据量  
+    "data":[  
+        {  
+            "title":"美国首例新冠病毒患者使用未获批药 remdesivir（瑞德西韦）后大幅好转，它有望成为病毒克星吗？",  
+            "url":"https://www.zhihu.com/question/368940464"  
+        }  
+    ]  
+}  
+
+
