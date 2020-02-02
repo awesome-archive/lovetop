@@ -17,23 +17,16 @@
 
 ### 2.文件结构
 
-后端部分
-
-├─hotapi  存放后端python代码  
-│  webapi.py  
-│  spider.py  
-│  scheduler.py  
-│  index.html 主页文件  
-├─ext  扩展  
-│  ├─css  
-│  │      style.css 卡片控制的相关css  
-│  │      webkit.css  滚动条央视  
-│  ├─img  存放图片 各网站logo  
-│  ├─js  
-│  │      index.js  主页渲染  
-│  │      render.js 渲染函数 导航监听  
-│  └─page  
-└─layui layui框架 
+主要文件说明：  
+`webapi.py `    fastapi Web页面  
+`spider.py`     抓取器  
+`scheduler.py`  调度器  
+`index.html`    主页文件  
+`/ext/css/style.css` 卡片控制的相关css  
+`/ext/css/webkit.css` 滚动条控制   
+`/ext/img`  存放图片 各网站logo   
+`/ext/js/index.js`  主页渲染    
+`/ext/js/render.js` 渲染函数 导航监听    
 
 ### 3.请求格式与数据返回：  
 请求示例： https://lovetop.top:8080/hot?name=zhihu&page=1&limit=10  
