@@ -28,34 +28,19 @@
 
 后端部分
 
-├─hotapi  存放后端python代码
-
-│  webapi.py
-
-│  spider.py
-
-│  scheduler.py
-
-
-│  index.html 主页文件
-
-│
-├─ext  扩展
-
-│  ├─css
-
-│  │      style.css 卡片控制的相关css
-
-│  │      webkit.css  滚动条央视
-
-│  ├─img  存放图片 各网站logo
-
-│  ├─js
-
-│  │      index.js  主页渲染
-
-│  │      render.js 渲染函数 导航监听
-
-│  └─page
-
-└─layui
+├─hotapi  存放后端python代码  
+│  webapi.py  
+│  spider.py  
+│  scheduler.py  
+│  index.html 主页文件  
+│  
+├─ext  扩展  
+│  ├─css  
+│  │      style.css 卡片控制的相关css  
+│  │      webkit.css  滚动条央视  
+│  ├─img  存放图片 各网站logo  
+│  ├─js  
+│  │      index.js  主页渲染  
+│  │      render.js 渲染函数 导航监听  
+│  └─page  
+└─layui layui框架  
