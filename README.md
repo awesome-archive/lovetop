@@ -20,12 +20,12 @@
 主要文件说明：  
 `webapi.py `&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp; fastapi Web页面  
 `spider.py` &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 抓取器  
-`scheduler.py`&nbsp; &nbsp; &nbsp; 调度器  
-`index.html`&nbsp; &nbsp;&nbsp;  &nbsp; &nbsp; 主页文件  
+`scheduler.py`&nbsp; &nbsp; &nbsp; &nbsp; 调度器  
+`index.html`&nbsp; &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; 主页文件  
 `/ext/css/style.css` 卡片控制的相关css  
 `/ext/css/webkit.css` 滚动条控制   
 `/ext/img`&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 存放图片 各网站logo   
-`/ext/js/index.js`&nbsp; &nbsp; 主页渲染    
+`/ext/js/index.js`&nbsp; &nbsp; &nbsp; 主页渲染    
 `/ext/js/render.js`&nbsp; &nbsp; 渲染函数 导航监听    
 
 ### 3.请求格式与数据返回：  
