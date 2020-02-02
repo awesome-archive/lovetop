@@ -5,7 +5,7 @@
 
 演示地址： https://lovetop.top/
 
-### 1.说明：
+### 1.说明： 
 #### 后端部分：使用FastApi框架 配合uvicorn 完成
 #### 前端部分：主要使用了Layui框架渲，使用JavaScript+html+css 构造前端
 依赖的外部库：    
