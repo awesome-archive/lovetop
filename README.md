@@ -45,6 +45,6 @@
 
 ### 参考文档：  
 [1] Layui官方文档&nbsp; &nbsp; &nbsp;&nbsp;  https://www.layui.com/doc/  
-[2] 清华pip源 使用说明 https://mirrors.tuna.tsinghua.edu.cn/help/pypi/  
-[3]  FastApi文档&nbsp; &nbsp; &nbsp; https://fastapi.tiangolo.com/deployment/  
-[4]  Uvicorn文档&nbsp; &nbsp; &nbsp; https://www.uvicorn.org/deployment
+[2] 清华pip源 使用说明&nbsp;  https://mirrors.tuna.tsinghua.edu.cn/help/pypi/  
+[3]  FastApi文档&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  https://fastapi.tiangolo.com/deployment/  
+[4]  Uvicorn文档&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  https://www.uvicorn.org/deployment
