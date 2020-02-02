@@ -10,20 +10,30 @@
 
 依赖的外部库
 `pip install lxml`      用于解析
+
 `pip install reuqests`  用于请求
+
 `pip install uvicorn`    一个基于 asyncio 开发的一个轻量级高效的 Web 服务器框架
+
 `pip install fastapi`    Api框架
+
 国内推荐添加清华源 参数  `-i https://pypi.tuna.tsinghua.edu.cn/simple` 以加快安装速度
+
 
 ##### 前端部分：主要使用了Layui框架渲，使用JavaScript+html+css 构造前端
 
 #### 文件结构
 
 后端部分
+
 ├─hotapi  存放后端python代码
+
 │  webapi.py
+
 │  spider.py
+
 │  scheduler.py
+
 
 │  index.html 主页文件
 │
