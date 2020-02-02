@@ -1,0 +1,15 @@
+.layui-card-body {
+    position: relative;
+    padding: 10px 15px;
+    max-height: 280px;
+    line-height: 24px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    }
+
+.sm-img{
+    margin-top:0px;
+    width:25px;
+    height:25px;
+    border-radius:18px;
+}

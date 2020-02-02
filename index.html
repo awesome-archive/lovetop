@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>吾爱热榜官网 - 你爱的，才是热榜！</title>
+  <script src="./layui/layui.js"></script>
+  <script src="./ext/js/render.js"></script>
+  <link rel="stylesheet" href="./layui/css/layui.css" media="all">
+  <link rel="stylesheet" type="text/css" href="./ext/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./ext/css/webkit.css">
+</head>
+<body>
+
+  <ul class="layui-nav layui-bg-blue">
+  <div class="layui-row">
+    <div class="layui-col-md9">
+      <li class="layui-nav-item"><a href="/"><font color='#FFFFFF'><b>吾爱热榜网</b></font></a></li>
+      <li class="layui-nav-item layui-this"><a href="">精选</a></li>
+      <li class="layui-nav-item"><a href="./tech.html">科技</a></li>
+      <li class="layui-nav-item"><a href="">娱乐</a></li>
+      <li class="layui-nav-item"><a href="">社区</a></li>
+    </div>
+    <div class="layui-col-md3">
+      <li class="layui-nav-item"><a href="">APP下载</a></li>
+      <li class="layui-nav-item"><a href="">订阅</a></li>
+      <li class="layui-nav-item"><a href="">关于</a></li>
+    </div>
+  </div>
+</ul>
+
+<div style="padding: 15px; background-color: #F2F2F2;">
+<div class="layui-fluid">
+  <div class="layui-row layui-col-space10">
+
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          <img class="sm-img" src="./ext/img/zhihu2.jpg">
+          <font size="3" color="#393D49"><b> 知乎</b></font>
+        </div>
+        <div class="layui-card-body" id = "zhihucard">
+          <ul id="zhihu"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          <img class="sm-img" src="./ext/img/weibo.jpg">
+          <font size="3" color="#393D49"><b> 微博</b></font>  
+        </div>
+        <div class="layui-card-body" id = "weibocard">
+          <ul id="weibo"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          <img class="sm-img" src="./ext/img/weixin.png">
+          <font size="3" color="#393D49"><b> 微信</b></font> 
+        </div>
+        <div class="layui-card-body" id="weixincard">
+          <ul id="weixin"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="layui-col-md3">
+        <div class="layui-card">
+          <div class="layui-card-header">
+            <img class="sm-img" src="./ext/img/baidu.png">
+            <font size="3" color="#393D49"><b> 百度</b></font> 
+          </div>
+          <div class="layui-card-body" id = "baiducard">
+            <ul id="baidu"></ul>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div style="padding: 15px; background-color: #F2F2F2;">
+  <div class="layui-fluid">
+  <div class="layui-row layui-col-space10">
+
+  <div class="layui-col-md3">
+    <div class="layui-card">
+      <div class="layui-card-header">
+        <img class="sm-img" src="./ext/img/cctvnews.png">
+        <font size="3" color="#393D49"><b> 央视要闻</b></font>  
+      </div>
+      <div class="layui-card-body" id = "cctvnewscard">
+        <ul id="cctvnews"></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="layui-col-md3">
+    <div class="layui-card">
+      <div class="layui-card-header">
+        <img class="sm-img" src="./ext/img/ppnews.png">
+        <font size="3" color="#393D49"><b> 澎湃新闻</b></font> 
+      </div>
+      <div class="layui-card-body" id="ppnewscard">
+        <ul id="ppnews"></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="layui-col-md3">
+    <div class="layui-card">
+      <div class="layui-card-header">
+        <img class="sm-img" src="./ext/img/tieba.png">
+        <font size="3" color="#393D49"><b> 贴吧</b></font>  
+      </div>
+      <div class="layui-card-body" id = "tiebacard">
+        <ul id="tieba"></ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="layui-col-md3">
+    <div class="layui-card">
+      <div class="layui-card-header">
+        <img class="sm-img" src="./ext/img/sspai.png">
+        <font size="3" color="#393D49"><b> 少数派</b></font> 
+      </div>
+      <div class="layui-card-body" id="sspaicard">
+        <ul id="sspai"></ul>
+      </div>
+    </div>
+  </div>
+<div>
+</div>    
+</div> 
+</div>
+</div>
+
+<div style="padding: 15px; background-color: #F2F2F2;">
+    <div class="layui-fluid">
+    <div class="layui-row layui-col-space10">
+
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          <img class="sm-img" src="./ext/img/vsite.jpg">
+          <font size="3" color="#393D49"><b> V2EX</b></font>  
+        </div>
+        <div class="layui-card-body" id = "vsitecard">
+          <ul id="vsite"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          <img class="sm-img" src="./ext/img/kr.png">
+          <font size="3" color="#393D49"><b> 36氪</b></font> 
+        </div>
+        <div class="layui-card-body" id="krcard">
+          <ul id="kr"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          <img class="sm-img" src="./ext/img/bsite2.jpg">
+          <font size="3" color="#393D49"><b> bilibili</b></font>  
+        </div>
+        <div class="layui-card-body" id = "bsitecard">
+          <ul id="bsite"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="layui-col-md3">
+      <div class="layui-card">
+        <div class="layui-card-header">
+          <img class="sm-img" src="./ext/img/ithome.png">
+          <font size="3" color="#393D49"><b> IT之家</b></font> 
+        </div>
+        <div class="layui-card-body" id="ithomecard">
+          <ul id="ithome"></ul>
+        </div>
+      </div>
+    </div>
+  <div>
+</div>    
+</div> 
+</div>
+</div>
+
+<div style="padding: 3px; background-color: #1E9FFF;">
+  <div class="layui-footer">
+    <!-- 底部固定区域 -->
+  <center><font color='#FFFFFF'><b>©2020 吾爱热榜网 lovetop.top  联系邮箱：lookcos@gmail.com</b></font></center>
+  </div>
+<div>
+
+<script src="./ext/js/index.js"></script>
+</body>
+</html>
